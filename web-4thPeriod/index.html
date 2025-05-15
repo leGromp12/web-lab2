@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Magic: The Gathering Market</title>
+</head>
+<body id="main-page">
+
+    <div id="header">
+        <div id="navigation">
+            <nav>
+                <div id="category-button">
+                    <a href="../index.html" class="navBtn"><img src="images/mtgLogo.png" alt=""></a> 
+
+                <div id="category-button">
+                    <a href="/pages/sealedProducts.html" class="navBtn">Sealed Products</a> 
+                </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    
+    <div id="popup-ad" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h2>Special offer!</h2>
+            <p>Get discount 30% on all items!</p>
+            <!-- <img src="images/mtgLogo.png" alt="Special Offer" class="popup-image"> -->
+            <button id="claim-offer">Get discount</button>
+        </div>
+    </div>
+
+
+
+    <div id="small-ad-container" class="small-ad">
+        <p class="small-ad-text">Special deal!</p>
+        <div class="small-ad-buttons">
+            <button id="accept-offer" class="accept-btn">Accept</button>
+            <button id="decline-offer" class="decline-btn">Decline</button>
+        </div>
+    </div>
+
+<!--     
+    <div class="category-text">
+        <p>Playmats</p>
+    </div> -->
+
+    <div id="item-container"></div>
+    <!-- <div class="load-more">
+        <button id="loadMoreBtn">Show More</button>
+    </div> -->
+    
+
+
+    <script src="/scripts/catalogue.js"></script>
+</body>
+</html>
